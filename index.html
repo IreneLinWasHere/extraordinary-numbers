@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This is where your description goes">
+	<meta name="keywords" content="one, two, three">
+
+	<title>Extraordinary Numbers</title>
+
+	<!-- external CSS link -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@12..96&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="https://kit.fontawesome.com/181678ba9d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<h1>Extraordinary Numbers</h1>
+	<div class="container">
+		<div class="left-side">
+			<p>Pick a number and learn something interesting about it!</p>
+			<input type="number" placeholder="Pick a number" name="" class="input">
+			<label for="type-of-fact">Type of fact:</label>
+			<select name="type-of-fact" id="type-of-fact">
+				<option value='trivia'>Trivia</option>
+				<option value='math'>Math</option>
+				<option value='year'>Year</option>
+			</select>
+			<button class="button">Learn!</button>
+		</div>
+
+		<div class="right-side">
+			<h2 class="numberSearched"></h2>
+			<p class="fact"></p>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
